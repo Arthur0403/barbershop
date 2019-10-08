@@ -24,7 +24,7 @@ html(lang="en")
           ul.user-navigation
             li.login-link Вход
       main.container
-        h1.visually-hidden Барбершоп "Бородинский"
+        h1.visually-hidden Барбершоп "Бородинский" 
         section.features
           h2.visually-hidden
           ul.features-list
@@ -32,20 +32,20 @@ html(lang="en")
               h3 БЫСТРО
               p МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ
             li.feature-item
-              h3 БЫСТРО
-              p МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ
+              h3 КРУТО
+              p ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
             li.feature-item
-              h3 БЫСТРО
-              p МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ
+              h3 ДОРОГО
+              p НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
         section.news
           h2 Новости
           ul.news-list
             li.news-item
-              p news text
+              p НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
               time(datetime="2016-01-11") 11 января
             li.news-item
-              p news text
-              time(datetime="2016-01-11") 11 января
+              p В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+              time(datetime="2016-01-18") 18 января
             a.button(href="news.html") Все новости
         section.gallery
           h2 Фотогалерея
@@ -56,15 +56,29 @@ html(lang="en")
           span.button.gallery-button.gallery-button-next Вперед
         section.contacts
           h2 Контактная Информация
-          p
-          p
+          p БАРБЕРШОП «БОРОДИНСКИЙ»
+            br 
+            | АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8
+            br
+            | ТЕЛЕФОН: +7 (495) 666-02-66
+          p ВРЕМЯ РАБОТЫ: 
+            br
+            | ПН—ПТ: С 10:00 ДО 22:00
+            br
+            | СБ—ВС: С 10:00 ДО 19:00
           a.button(href="map.html") Как проехать
           a.button(href="contacts.html") Обратная связь
         section.appointment
           h2 Записаться
-          p
+          p.appointment-info УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
     footer.main-footer
-      p.footer-contacts
+      p.footer-contacts БАРБЕРШОП «БОРОДИНСКИЙ»
+        br
+        | АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
+        br 
+        a(href="map.html") КАК НАС НАЙТИ?
+        br
+        | ТЕЛЕФОН: +7 (495) 666-02-66
       .footer-social
         b Давайте дружить!
         ul
@@ -77,5 +91,12 @@ html(lang="en")
       p.footer-copyright
         b
         a.button(href="https://htmlacademy.ru") HTML Academy
+    section.modal.modal-login
+      h2 Личный кабинет
+      p Введите свой логин и пароль
+      span.modal-close x
+    section.modal.modal-map
+      h2.visually-hidden Как до нас добраться
+      span.modal-close x
 
 
