@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Barbershop
+    body
+      header.main-header
+        nav.main-navigation
+          a.main-header-logo
+            img(src="img/index-logo.svg", alt="Логотип барбершопа 'Бородинский'", width="368", height="153")
+          ul.site-navigation
+            li
+                a(href="info.html") Информация
+            li
+                a(href="news.html") Новости
+            li
+                a(href="price.html") Прайс-лист
+            li
+                a(href="catalog.html") Магазин
+            li
+                a(href="contacts.html") Контакты
+          ul.user-navigation
+            li.login-link Вход
+      main.container
+        h1.visually-hidden Барбершоп "Бородинский"
+        section.features
+          h2.visually-hidden
+          ul.features-list
+            li.feature-item
+              h3 БЫСТРО
+              p МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ
+            li.feature-item
+              h3 БЫСТРО
+              p МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ
+            li.feature-item
+              h3 БЫСТРО
+              p МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ
+        section.news
+          h2 Новости
+          ul.news-list
+            li.news-item
+              p news text
+              time(datetime="2016-01-11") 11 января
+            li.news-item
+              p news text
+              time(datetime="2016-01-11") 11 января
+            a.button(href="news.html") Все новости
+        section.gallery
+          h2 Фотогалерея
+          figure.gallery-content
+            a(href="#")
+              img(src="img/studio.jpg", alt="", width="286", height="164")
+          span.button.gallery-button.gallery-button-back Назад
+          span.button.gallery-button.gallery-button-next Вперед
+        section.contacts
+          h2 Контактная Информация
+          p
+          p
+          a.button(href="map.html") Как проехать
+          a.button(href="contacts.html") Обратная связь
+        section.appointment
+          h2 Записаться
+          p
+    footer.main-footer
+      p.footer-contacts
+      .footer-social
+        b Давайте дружить!
+        ul
+          li
+            a.social-button(href="#") В контакте
+          li
+            a.social-button(href="#") Фейсбук
+          li
+            a.social-button(href="#") Инстаграм
+      p.footer-copyright
+        b
+        a.button(href="https://htmlacademy.ru") HTML Academy
+
+
